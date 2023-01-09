@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <title>The secret text - Oracle Proyect</title>
+    <meta name='viewport' content='width=device-width'>
+    <link rel="stylesheet" href="reset.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); </style>
+</head>
+<body>
+    <header>
+        <img src="imagenes/Vector.png" id="logo">
+    </header>
+    <main>
+        <div id="encriptador">
+            <label for="textarea"></label>
+            <textarea cols="60" rows="30" id="textarea" class="input-padron"
+             placeholder="Ingrese su texto..."></textarea>
+             <p id="especifico"><img src="./imagenes/Vector2.png" id="vector2">Solo letras minúsculas y sin acentos.</p>
+            </div>
+            <div id="spandiv">
+                <span id="mensaje"><img src="./imagenes/Muneco.png" id="imagenspan"><img src="./imagenes/textospan.png" id="imgtextospan"></span>
+                <button id="copiar">Copiar</button>
+            </div>
+            
+        </main>
+        <footer>
+        <div id="botones">
+            <button class="boton" id="encriptar">Encriptar</button>
+            <button class="boton" id="desencriptar">Desencriptar</button>
+        </div>
+    </footer>
+    <script src='main.js'></script>
+</body>
+</html>
